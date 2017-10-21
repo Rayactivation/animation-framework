@@ -35,7 +35,7 @@ lights = [
         "strip" : s,
         "strip_index" : i
     }
-    for s in range(options.num_long_strips) for i in range(NUM_LIGHTS_IN_LONG_STRIP) 
+    for s in range(options.num_long_strips) for i in range(NUM_LIGHTS_IN_LONG_STRIP)
 ]
 
 with open(filename, 'w') as f:

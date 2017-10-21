@@ -2,8 +2,6 @@ import logging
 
 import numpy as np
 
-from hoe.state import STATE
-
 DEFAULT_FORMAT = "%(asctime)s %(levelname)-8s %(name)s:%(lineno)d: %(message)s"
 DEFAULT_FORMATTER = logging.Formatter(DEFAULT_FORMAT)
 

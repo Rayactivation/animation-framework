@@ -1,15 +1,16 @@
 from threading import Thread
 from time import sleep
-
 import traceback
-import osc_utils
-from state import STATE
 
-def start_keyboard_thread(framework):
+from animation_framework import osc_utils
+from animation_framework.state import STATE
+
+def launch_keyboard_thread(framework):
     keyboard_thread = Thread(
         target=listen_for_keyboard, args=(framework, ), name="KeyboardListeningThread")
     keyboard_thread.setDaemon(True)
     keyboard_thread.start()
+    return keyboard_thread
 
 def listen_for_keyboard(scene):
     # SceneManager -> None

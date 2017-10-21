@@ -8,13 +8,14 @@ from multiprocessing import Process
 import os
 import sys
 
-import animation_framework as AF
-from layout import Layout
-import opc
-import osc_utils
-import keyboard_utils
-from state import STATE
-import utils
+import animation_framework.framework as AF
+from animation_framework.layout import Layout
+from animation_framework import opc
+from animation_framework import osc_utils
+from animation_framework import keyboard_utils
+from animation_framework import midi_utils
+from animation_framework.state import STATE
+from animation_framework import utils
 
 logger = logging.getLogger(__name__)
 
@@ -133,6 +134,8 @@ def build_opc_client(verbose):
         return opc.MultiClient(clients)
 
 
+
+
 def launch():
     config = parse_command_line()
     osc_server = osc_utils.create_osc_server(
@@ -143,6 +146,8 @@ def launch():
     framework = init_animation_framework(osc_server, opc_client, config.scene)
 
     keyboard_utils.launch_keyboard_thread(framework)
+
+    midi_utils.listen_for_midi()
 
     try:
         framework.serve_forever()

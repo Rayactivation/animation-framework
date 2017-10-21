@@ -11,10 +11,9 @@ from threading import Thread
 
 from OSC import OSCServer
 
-from hoe.opc import Client
-from hoe.pixels import Pixels
-from hoe.state import STATE
-from hoe.collaboration import NoOpCollaborationManager, CollaborationManager
+from animation_framework.opc import Client
+from animation_framework.pixels import Pixels
+from animation_framework.state import STATE
 
 
 FAIL_ON_LOAD = True
@@ -38,9 +37,9 @@ class AnimationFramework(object):
         self.scenes = scenes or loaded_scenes
 
         map(lambda s: s.after_all_scenes_loaded(), self.scenes.values())
-
+        print self.scenes
         self.curr_scene = None
-        self.queued_scene = self.scenes[first_scene if first_scene else self.scenes[0]]
+        self.queued_scene = self.scenes[first_scene if first_scene else self.scenes.keys()[0]]
 
         self.serve = False
         self.is_running = False
@@ -49,6 +48,7 @@ class AnimationFramework(object):
             "next" : {},
             "last" : {}
         }
+        self.setup_osc_input_handlers()
 
     def next_scene_handler(self, path, tags, args, source):
         if not args or args[0] == "":
@@ -84,6 +84,7 @@ class AnimationFramework(object):
         def handle_midi(path, tags, args, source):
             #TODO - MAJOR STUFF HERE MAN
             print "Midi Input:", path, tags, args, source
+            self.curr_scene.add_effect(SelfDestructingSolidColor(args[1], args[2]))
 
         self.osc_server.addMsgHandler("/input/midi", handle_midi)
 
@@ -97,7 +98,9 @@ class AnimationFramework(object):
         if self.queued_scene:
             # Cache the scene queue locally so it can't be changed on us
             next_scene, last_scene, self.queued_scene = self.queued_scene, self.curr_scene, None
-            next_scene.scene_starting(self._last_scene_change_timestamp)
+            #FIXME now?
+            next_scene.scene_starting(time.time())
+            #next_scene.scene_starting(self._last_scene_change_timestamp)
             self.curr_scene = next_scene  # Go!
             print '\tScene %s started\n' % self.curr_scene
             # Now give the last scene a chance to cleanup
@@ -174,9 +177,6 @@ class AnimationFramework(object):
         #Now send
         self.pixels.put(self.opc_client)
 
-        # Update all the button light as needed!
-        STATE.stations.send_button_updates()
-
         # Okay, now we're done for real. Wait for target FPS and warn if too slow
         completed_timestamp = time.time()
         sleep_amount = target_frame_end_time - completed_timestamp
@@ -237,7 +237,7 @@ def load_scenes_from_file(pkg_name, scenes):
         print
 
 
-def save_scenes(input_scenes, output_scenes, tags):
+def save_scenes(input_scenes, output_scenes):
     for scene in input_scenes:
         if not isinstance(scene, Scene):
             print "Got scene %s not of type Scene" % scene
@@ -350,3 +350,19 @@ class Scene(MultiEffect):
     def render(self, pixels, t):
         # TODO Why didn't super(MultiEffect, self) work?
         self.next_frame(pixels, t)
+
+class SelfDestructingSolidColor(Effect):
+    def __init__(self, note=0, velocity=100):
+        Effect.__init__(self)
+        self.color = tuple(self._get_color(note, velocity, 0) for i in range(3))
+        self.rendered = False
+
+    def next_frame(self, pixels, t):
+        pixels[:] = self.color
+        self.rendered = True
+
+    def is_completed(self, t):
+        return self.rendered
+
+    def _get_color(self, note, velocity, param):
+        return velocity if note%3 == param else 0

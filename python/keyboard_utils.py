@@ -27,6 +27,16 @@ def listen_for_keyboard(scene):
                 print "Received shutdown command. Exiting now"
                 scene.shutdown()
                 keep_running = False
+            elif key_lower.startswith("next"):
+                # Increment one or more scenes
+                args = key_lower.split(" ")
+                if len(args) > 1:
+                    osc_utils.send_simple_message(osc_client, "/scene/next", [args[1]])
+                else:
+                    osc_utils.send_simple_message(osc_client, "/scene/next")
+            elif key_lower.startswith("scene "):
+                args = key_lower.split(" ", 1)
+                osc_utils.send_simple_message(osc_client, "/scene/select", [args[1]])
             elif key_lower.startswith("disable ") or key.startswith("enable "):
                 # Accepts disable (simulator|arduino|*) [b_id]
                 args = key_lower.split(" ", 2)

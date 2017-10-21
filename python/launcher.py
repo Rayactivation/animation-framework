@@ -8,7 +8,7 @@ from multiprocessing import Process
 import os
 import sys
 
-#from hoe import animation_framework as AF
+import animation_framework as AF
 from layout import Layout
 import opc
 import osc_utils
@@ -29,7 +29,8 @@ def parse_command_line(args=None):
         '-l',
         '--layout',
         dest='layout_file',
-        default=os.path.join(root_dir, 'layout', 'hoeLayout.json'),
+        # CHANGE ME
+        default=os.path.join(root_dir, 'layout', 'garage_layout_grid.json'),
         action='store',
         type=str,
         help='layout file')
@@ -41,6 +42,14 @@ def parse_command_line(args=None):
         action='store',
         type=str,
         help='json file for server addresses')
+    parser.add_argument(
+        '-n',
+        '--scene',
+        dest='scene',
+        default=None,
+        action='store',
+        type=str,
+        help='First scene to display')
     parser.add_argument(
         '-f', '--fps', dest='fps', default=30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
@@ -101,10 +110,10 @@ def create_opc_client(server, verbose=False):
     return client
 
 
-def init_animation_framework(osc_server, opc_client, first_scene=None, tags=[]):
+def init_animation_framework(osc_server, opc_client, first_scene=None):
     # type: (OSCServer, Client, [OSCClient], str) -> AnimationFramework
     mgr = AF.AnimationFramework(
-        osc_server=osc_server, opc_client=opc_client, first_scene=first_scene, tags=tags)
+        osc_server=osc_server, opc_client=opc_client, first_scene=first_scene)
     return mgr
 
 
@@ -131,7 +140,7 @@ def launch():
         port=int(STATE.servers["hosting"]["osc_server"]["port"]))
     opc_client = build_opc_client(config.verbose)
 
-    framework = init_animation_framework(osc_server, opc_client, config.scene, config.tags)
+    framework = init_animation_framework(osc_server, opc_client, config.scene)
 
     keyboard_utils.launch_keyboard_thread(framework)
 

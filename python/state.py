@@ -27,6 +27,7 @@ class Global(Borg):
         self.servers = None
         self.fps = None
         self.verbose = False
+        self.osc_data = None
 
 
 STATE = Global()

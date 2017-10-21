@@ -3,7 +3,7 @@ import json
 
 import numpy as np
 
-_GROUPBY = ["address", "section", "strip", "stripIndex", "topOrBottom", "row", "slice"]
+_GROUPBY = ["address", "strip", "strip_index"]
 
 ROWS = 216
 COLUMNS = 66
@@ -25,7 +25,7 @@ class Layout(object):
             setattr(self, attr, collections.defaultdict(list))
 
         for i, pixel in enumerate(self.pixels):
-            self.grid[pixel['row'], pixel['slice']] = i
+            self.grid[pixel['strip_index'], pixel['strip']] = i
             for attr in _GROUPBY:
                 getattr(self, attr)[pixel[attr]].append(i)
 

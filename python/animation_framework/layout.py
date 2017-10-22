@@ -4,21 +4,19 @@ import numpy as np
 
 _GROUPBY = ["address", "strip", "strip_index"]
 
-ROWS = 216
-COLUMNS = 66
-SECTIONS = 6
+ROWS = 126
+COLUMNS = 12
 
 
 class Layout(object):
 
-    def __init__(self, pixels, rows=ROWS, columns=COLUMNS, sections=SECTIONS):
+    def __init__(self, pixels, rows=ROWS, columns=COLUMNS):
         self.pixels = pixels
         self.n_pixels = len(pixels)
         self.rows = rows
         self.columns = columns
         self.shape = (rows, columns)
         self.grid = np.zeros((rows, columns), np.int)
-        self.sections = 6
 
         for attr in _GROUPBY:
             setattr(self, attr, collections.defaultdict(list))

@@ -18,6 +18,6 @@ class SolidBackground(Effect):
 SCENES = [
     Scene(
         "solidwhite",
-        effects=[SolidBackground(color=(30, 30, 30))]
+        effects=[SolidBackground(color=(50,0,0))]
     )
 ]

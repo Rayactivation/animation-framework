@@ -2,7 +2,29 @@ import mido
 from threading import Thread
 
 from animation_framework import osc_utils
-from animation_framework.framework import Effect
+
+base=36
+
+tom_1 = 0
+tom_2 = 0
+floor_tom = 0
+
+cymble_crash_bell = 0
+cymble_crash_crash = 0
+cymble_crash_hit = 0
+
+cymble_ride_bell = 0
+cymble_ride_crash = 0
+cymble_ride_hit = 0
+
+snare_hit = 0
+snare_cross = 0 
+snare_rim = 0
+
+closed_hit_high_hat = 0
+closed_crash_high_hat = 0
+open_hit_high_hat = 0
+open_crash_high_hat = 0
 
 def listen_for_midi():
     mido.set_backend(name='mido.backends.rtmidi_python', load=True)

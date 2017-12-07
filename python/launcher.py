@@ -22,10 +22,10 @@ logger = logging.getLogger(__name__)
 
 # -------------------------------------------------------------------------------
 # command line
-def parse_command_line(args=None):
+def get_command_line_parser(add_help=True):
     root_dir = find_root()
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(add_help=add_help)
     parser.add_argument(
         '-l',
         '--layout',
@@ -54,9 +54,14 @@ def parse_command_line(args=None):
     parser.add_argument(
         '-f', '--fps', dest='fps', default=30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
+    return parser
 
-    options = parser.parse_args(args)
 
+def parse_command_line(args=None):
+    parser = get_command_line_parser()
+    return parser.parse_args(args), parser
+
+def consume_config(options, parser):
     log_level = 'DEBUG' if options.verbose else 'INFO'
     utils.configure_logging(level=log_level)
 
@@ -136,8 +141,11 @@ def build_opc_client(verbose):
 
 
 
-def launch():
-    config = parse_command_line()
+def launch(options=None, parser=None):
+    config,parser = (options, parser) if options and parser else parse_command_line()
+    print config, parser
+    consume_config(config, parser)
+
     osc_server = osc_utils.create_osc_server(
         host=STATE.servers["hosting"]["osc_server"]["host"],
         port=int(STATE.servers["hosting"]["osc_server"]["port"]))

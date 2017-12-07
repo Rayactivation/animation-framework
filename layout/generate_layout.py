@@ -21,9 +21,15 @@ parser.add_argument(
     default=12,
     action='store',
     type=int)
-
+parser.add_argument(
+    '--scale',
+    dest='scale',
+    default=30,
+    action='store',
+    type=float)
 
 options = parser.parse_args()
+SCALE = options.scale
 
 filename = options.output_file if options.output_file else 'new_layout_{}.json'.format(options.num_long_strips)
 
@@ -31,7 +37,7 @@ lights = [
     {
         #TODO: use properties... "address" : "${server.1}",
         "address" : "10.0.0.32",
-        "point": [i*IN_LINE_SPACING, s*1, 0], # Force spacing into a bad grid for now
+        "point": [i*IN_LINE_SPACING*SCALE, s*0.1*SCALE, 0*SCALE], # Force spacing into a bad grid for now
         "strip" : s,
         "strip_index" : i
     }

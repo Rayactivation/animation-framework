@@ -14,7 +14,8 @@ from OSC import OSCServer
 from animation_framework.opc import Client
 from animation_framework.pixels import Pixels
 from animation_framework.state import STATE
-import animation_framework.midi_utils as midi_utils
+from animation_framework.midi_utils import DrumHit
+from animation_framework.osc_utils import OSCStorage
 
 
 FAIL_ON_LOAD = True
@@ -44,11 +45,8 @@ class AnimationFramework(object):
 
         self.serve = False
         self.is_running = False
-        STATE.osc_data = {
-            "current" : {},
-            "next" : {},
-            "last" : {}
-        }
+        STATE.osc_data = OSCStorage()
+        print STATE.osc_data
         self.setup_osc_input_handlers()
 
     def next_scene_handler(self, path, tags, args, source):
@@ -75,25 +73,8 @@ class AnimationFramework(object):
 
         # self.osc_server.addMsgHandler("/scene/picknew", self.pick_new_scene_handler)
 
-        # Set up buttons
-        def handle_button(path, tags, args, source):
-            station, button_id = map(int, args)
-            self.osc_data.button_pressed(station, button_id)
-
-        self.osc_server.addMsgHandler("/input/button", handle_button)
-        
-
         def handle_midi(path, tags, args, source):
-            #TODO - MAJOR STUFF HERE MAN
-            print "Midi Input:", path, tags, args, source
-            #self.curr_scene.add_effect(SelfDestructingSolidColor(args[1], args[2]))
-            note = args[1]
-            velocity = args[2]
-            is_base_kick = note == midi_utils.base
-            columns = slice(0, None) if is_base_kick else 0 if note % 4 <2 else 2
-
-            columns = slice(0, None)
-            self.curr_scene.add_effect(MovingColor(note, velocity, columns))
+            STATE.osc_data.accumulating['midi'].append(DrumHit(args[1], args[2]))
 
         self.osc_server.addMsgHandler("/input/midi", handle_midi)
 
@@ -120,11 +101,7 @@ class AnimationFramework(object):
         # type: (bool) -> None
         """Get the last frame of osc data and initialize the next frame"""
         # TODO: Do we need to explicitly synchronize here?
-        STATE.osc_data = {
-            "last":STATE.osc_data["current"],
-            "current": STATE.osc_data["next"],
-            "next": {}
-        }
+        STATE.osc_data.next_frame()
 
     def next_scene(self, increment=1):
         """ Move the selected scene forward or back from the at-large pool"""
@@ -359,44 +336,3 @@ class Scene(MultiEffect):
     def render(self, pixels, t):
         # TODO Why didn't super(MultiEffect, self) work?
         self.next_frame(pixels, t)
-
-class SelfDestructingSolidColor(Effect):
-    def __init__(self, note, velocity):
-        Effect.__init__(self)
-        #self.color = tuple(self._get_color(note, min(velocity*2,200), i) for i in range(3))
-        self.color = (0,0,min(velocity*2,200))
-        self.rendered = 3
-
-    def next_frame(self, pixels, t):
-        pixels[:] = self.color
-        self.rendered -= 1
-
-    def is_completed(self, t):
-        return self.rendered <= 0
-
-    def _get_color(self, note, velocity, param):
-        return velocity if note%3 == param else 0
-
-class MovingColor(Effect):
-    def __init__(self, note, velocity, columns):
-        Effect.__init__(self)
-        #self.color = tuple(self._get_color(note, min(velocity*2,255, 80), i) for i in range(3))
-        self.color = (
-            0,
-            self._get_color(note, min(velocity*2,255, 80), 1),
-            self._get_color(note, min(velocity*2,255, 80), 0),
-            )
-        self.location = 0
-        self.columns = columns
-
-    def next_frame(self, pixels, t):
-        #pixels[self.location:self.location+2,:] = self.color
-        pixels[STATE.layout.rows/2+self.location:STATE.layout.rows/2+self.location+2,self.columns] = self.color
-        pixels[STATE.layout.rows/2-self.location-2:STATE.layout.rows/2-self.location,self.columns] = self.color
-        self.location += 1
-
-    def is_completed(self, t):
-        return self.location >= STATE.layout.rows/2-1
-
-    def _get_color(self, note, velocity, param):
-        return velocity if note%2 == param else 0

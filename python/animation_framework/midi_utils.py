@@ -1,5 +1,6 @@
 import mido
 from threading import Thread
+from collections import namedtuple
 
 from animation_framework import osc_utils
 
@@ -39,3 +40,5 @@ def _forward_midi():
         for msg in midi_in:
             if msg.type in ['note_on'] and msg.velocity > 0:
                 osc_utils.send_simple_message(osc_client, path="/input/midi", data=[msg.type, msg.note, msg.velocity])
+
+DrumHit = namedtuple("DrumHit", ["note", "velocity"])

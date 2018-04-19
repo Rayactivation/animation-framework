@@ -4,28 +4,29 @@ from collections import namedtuple
 
 from animation_framework import osc_utils
 
-base=36
+bass=36
 
-tom_1 = 0
-tom_2 = 0
-floor_tom = 0
+tom_1 = 48
+tom_2 = 47
+floor_tom = 43
 
-cymble_crash_bell = 0
-cymble_crash_crash = 0
-cymble_crash_hit = 0
+cymble_crash_bell = 55
+cymble_crash_crash = 49
+cymble_crash_hit = 59
 
-cymble_ride_bell = 0
-cymble_ride_crash = 0
-cymble_ride_hit = 0
+cymble_ride_bell = 53
+cymble_ride_crash = 52
+cymble_ride_hit = 51
 
-snare_hit = 0
-snare_cross = 0 
-snare_rim = 0
+snare_hit = 38
+snare_cross = 37 
+snare_rim = 40
 
-closed_hit_high_hat = 0
-closed_crash_high_hat = 0
-open_hit_high_hat = 0
-open_crash_high_hat = 0
+closed_hit_high_hat = 42
+closed_crash_high_hat = 86
+open_hit_high_hat = 46
+open_crash_high_hat = 85
+high_hat_close=44
 
 def listen_for_midi():
     mido.set_backend(name='mido.backends.rtmidi_python', load=True)

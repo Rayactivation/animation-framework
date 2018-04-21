@@ -1,10 +1,16 @@
 import mido
+import argparse
 
-#mido.set_backend('mido.backends.rtmidi_python')
-mido.set_backend('mido.backends.rtmidi')
-#mido.set_backend('mido.backends.portmidi')
+parser = argparse.ArgumentParser(add_help=True)
+parser.add_argument('--port', dest='port', default=None, action='store')
+parser.add_argument('--virtual', dest='virtual', default=None, action='store')
+parser.add_argument('--midi-backend', dest='midi_backend', default='mido.backends.rtmidi_python', action='store')
 
-with mido.open_output('fake_drums', virtual=True) as midi_out:
+config = parser.parse_args()
+#mido.set_backend('mido.backends.rtmidi')
+mido.set_backend(config.midi_backend)
+
+with mido.open_output(config.port, virtual=config.virtual) as midi_out:
     keep_going=True
     while keep_going:
         key = raw_input("Send a keyboard command: ")

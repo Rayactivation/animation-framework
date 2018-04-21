@@ -54,6 +54,10 @@ def get_command_line_parser(add_help=True):
     parser.add_argument(
         '-f', '--fps', dest='fps', default=30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
+    parser.add_argument('--midi-port', dest='midi_port', default=None, action='store')
+    parser.add_argument('--midi-port-virtual', dest='midi_port_virtual', default=None, action='store')
+    parser.add_argument('--midi-backend', dest='midi_backend', default='mido.backends.rtmidi_python', action='store')
+
     return parser
 
 
@@ -155,7 +159,7 @@ def launch(options=None, parser=None):
 
     keyboard_utils.launch_keyboard_thread(framework)
 
-    midi_utils.listen_for_midi()
+    midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
 
     try:
         framework.serve_forever()

@@ -58,6 +58,8 @@ def createWord(bitmaps, word, space=1):
 
 CACHED_WORDS = {
     'TONY': createWord(LETTERS_SIX, "TONY", 1),
+    'TONYx3': createWord(LETTERS_SIX, "TONY  TONY  TONY", 1),
+
     'DRUM HARDER': createWord(LETTERS_SIX, "DRUM HARDER")
 }
 
@@ -108,7 +110,8 @@ class DrawMovingBitmap(Effect):
     def next_frame(self, pixels, t):
         #TODO faster (numpy manipulations?)
         for point in self.pointcloud:
-            pixels[self.col+point[0],point[1]]=self.color
+            if(self.col+point[0]>=0):
+                pixels[self.col+point[0],point[1]]=self.color
         self.col += self.direction
 
     def is_completed(self, t):

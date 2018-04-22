@@ -4,7 +4,7 @@ from collections import namedtuple
 from animation_framework.framework import Effect, Scene, MultiEffect
 from animation_framework.state import STATE
 
-#Name is just for easier print/debugging 
+#Name is just for easier print/debugging
 Bitmap = namedtuple("Bitmap", ["name", "height", "width", "bitmap"])
 
 BIG_LETTERS = {
@@ -61,10 +61,23 @@ CACHED_WORDS = {
     'DRUM HARDER': createWord(LETTERS_SIX, "DRUM HARDER")
 }
 
+class StaticBitmap(Effect):
+    def __init__(self, bitmap, color, direction, top_row, left_col=None):
+        Effect.__init__(self)
+        self.color = color
+        self.bitmap = bitmap
+        #Default to centered
+        left_col = left_col if left_col != None else computeCenteredLeft(bitmap)
+        left_offset = left_col if direction>0 else STATE.layout.rows-left_col
+        self.pointcloud = map(lambda point: [point[0]*direction+left_offset, point[1]+top_row], bitmap.bitmap)
+
+    def next_frame(self, pixels, t):
+        for point in self.pointcloud:
+            pixels[point[0],point[1]] = self.color
+
 class FlashBitmap(Effect):
     def __init__(self, bitmap, color, direction, duration, top_row, left_col=None):
         Effect.__init__(self)
-        print bitmap
         self.color = color
         self.timer = duration
         self.bitmap = bitmap

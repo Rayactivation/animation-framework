@@ -148,7 +148,7 @@ class DrumHitRow(Effect):
         self.column_location = self.column_location-1
 
     def is_completed(self, t):
-        return self.column_location < 0 
+        return self.column_location < 0
 
 class DrawA_B(Effect):
     def __init__(self, drum_hit):
@@ -162,7 +162,7 @@ class DrawA_B(Effect):
             [0,4],[1,4],[2,4],
             [0,5],[3,5],
             [0,6],[3,6],
-            [0,7],[1,7],[2,7] 
+            [0,7],[1,7],[2,7]
         ]
 
     def next_frame(self, pixels, t):
@@ -173,30 +173,28 @@ class DrawA_B(Effect):
 
 
     def is_completed(self, t):
-        return self.col < 0 
+        return self.col < 0
 
 class MidiListener(MultiEffect):
     def before_rendering(self, pixels, t):
         super(MidiListener, self).before_rendering(pixels, t)
         for data in STATE.osc_data.current['midi']:
-            #self.add_effect(MovingColor(data,slice(0,None)))
+            self.add_effect(example.MovingColor(data,slice(0,None)))
             #self.add_effect(DrumHitRow(data))
-            if(data.note==36):
-                self.add_effect(DrawA_B(data))
-            else:
-                self.add_effect(DrumHitRow(data))
+            #if(data.note==36):
+            #    self.add_effect(DrawA_B(data))
 
 SCENES = [
     #Scene(
     #    "movingslice",
     #    effects=[MovingSlice()]
     #),
-    Scene(
-        "solidwhite",
-        effects=[
-            SolidBackground(color=(150,0,0)),
-            MidiListener()
-        ]
-    ),
+    #Scene(
+    #    "solidwhite",
+    #    effects=[
+    #        SolidBackground(color=(150,0,0)),
+    #        MidiListener()
+    #    ]
+    #),
 
 ]

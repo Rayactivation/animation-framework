@@ -1,7 +1,10 @@
 import example
 import bitmap
-from animation_framework.framework import Scene, MultiEffect, Effect
+import midi_effects
+
+from animation_framework.model import Scene, MultiEffect, Effect
 from animation_framework.state import STATE
+from animation_framework.midi_utils import MidiLauncher
 
 DURATION=30
 
@@ -47,7 +50,7 @@ SCENES = [
             example.SolidBackground(color=(60,0,0)),
             bitmap.StaticBitmap(bitmap.CACHED_WORDS['DRUM HARDER'], (100,100,100), -1, 1),
             #example.MovingColor()
-            MidiListener(example.DrumHitRow)
+            MidiLauncher(midi_effects.DrumHitRow)
         ]
     ),
     Scene(
@@ -55,16 +58,7 @@ SCENES = [
         effects=[
             example.SolidBackground(color=(255,0,0)),
             FlashTony(),
-            MidiListener(example.DrumHitRow)
-        ]
-    ),
-    Scene(
-        "Bees",
-        effects=[
-            example.SolidBackground(color=(255,0,0)),
-            SuperBass(),
-            MidiListener(example.DrumHitRow)
+            MidiLauncher(midi_effects.DrumHitRow)
         ]
     )
-
 ]

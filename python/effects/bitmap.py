@@ -1,7 +1,7 @@
 import random
 import numpy as np
 from collections import namedtuple
-from animation_framework.framework import Effect, Scene, MultiEffect
+from animation_framework.model import Effect, Scene, MultiEffect
 from animation_framework.state import STATE
 
 #Name is just for easier print/debugging

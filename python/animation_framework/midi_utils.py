@@ -3,7 +3,8 @@ from threading import Thread
 from collections import namedtuple
 
 from animation_framework import osc_utils
-
+from animation_framework.model import Effect, MultiEffect
+from animation_framework.state import STATE
 bass=36
 
 tom_1 = 48
@@ -44,3 +45,24 @@ def _forward_midi(port=None, virtual=None):
                 osc_utils.send_simple_message(osc_client, path="/input/midi", data=[msg.type, msg.note, msg.velocity])
 
 DrumHit = namedtuple("DrumHit", ["note", "velocity"])
+
+
+class AbstractMidiListener(MultiEffect):
+    def before_rendering(self, pixels, t):
+        super(AbstractMidiListener, self).before_rendering(pixels, t)
+        for data in STATE.osc_data.current['midi']:
+            self.process_note(pixels, t, data)
+
+    def process_note(self, pixels, t, data):
+        pass
+
+
+#Concrete implementation for midi listener. Pass a function to handle the data
+#(There is probably a cleaner pythonic way to do this)
+class MidiLauncher(AbstractMidiListener):
+    def __init__(self, factory):
+        AbstractMidiListener.__init__(self)
+        self.factory = factory
+
+    def process_note(self, pixels, t, data):
+        self.add_effect(self.factory(data=data, t=t))

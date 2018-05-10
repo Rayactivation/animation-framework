@@ -1,0 +1,10082 @@
+[
+ {
+  "strip": 0, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 0, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   8.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 1, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 2, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 3, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 4, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   0.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 5, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   -2.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 6, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   -4.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 0, 
+  "point": [
+   189.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 1, 
+  "point": [
+   186.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 2, 
+  "point": [
+   183.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 3, 
+  "point": [
+   180.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 4, 
+  "point": [
+   177.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 5, 
+  "point": [
+   174.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 6, 
+  "point": [
+   171.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 7, 
+  "point": [
+   168.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 8, 
+  "point": [
+   165.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 9, 
+  "point": [
+   162.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 10, 
+  "point": [
+   159.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 11, 
+  "point": [
+   156.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 12, 
+  "point": [
+   153.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 13, 
+  "point": [
+   150.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 14, 
+  "point": [
+   147.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 15, 
+  "point": [
+   144.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 16, 
+  "point": [
+   141.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 17, 
+  "point": [
+   138.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 18, 
+  "point": [
+   135.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 19, 
+  "point": [
+   132.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 20, 
+  "point": [
+   129.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 21, 
+  "point": [
+   126.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 22, 
+  "point": [
+   123.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 23, 
+  "point": [
+   120.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 24, 
+  "point": [
+   117.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 25, 
+  "point": [
+   114.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 26, 
+  "point": [
+   111.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 27, 
+  "point": [
+   108.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 28, 
+  "point": [
+   105.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 29, 
+  "point": [
+   102.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 30, 
+  "point": [
+   99.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 31, 
+  "point": [
+   96.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 32, 
+  "point": [
+   93.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 33, 
+  "point": [
+   90.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 34, 
+  "point": [
+   87.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 35, 
+  "point": [
+   84.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 36, 
+  "point": [
+   81.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 37, 
+  "point": [
+   78.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 38, 
+  "point": [
+   75.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 39, 
+  "point": [
+   72.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 40, 
+  "point": [
+   69.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 41, 
+  "point": [
+   66.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 42, 
+  "point": [
+   63.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 43, 
+  "point": [
+   60.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 44, 
+  "point": [
+   57.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 45, 
+  "point": [
+   54.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 46, 
+  "point": [
+   51.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 47, 
+  "point": [
+   48.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 48, 
+  "point": [
+   45.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 49, 
+  "point": [
+   42.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 50, 
+  "point": [
+   39.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 51, 
+  "point": [
+   36.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 52, 
+  "point": [
+   33.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 53, 
+  "point": [
+   30.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 54, 
+  "point": [
+   27.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 55, 
+  "point": [
+   24.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 56, 
+  "point": [
+   21.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 57, 
+  "point": [
+   18.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 58, 
+  "point": [
+   15.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 59, 
+  "point": [
+   12.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 60, 
+  "point": [
+   9.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 61, 
+  "point": [
+   6.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 62, 
+  "point": [
+   3.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 63, 
+  "point": [
+   0.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 64, 
+  "point": [
+   -3.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 65, 
+  "point": [
+   -6.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 66, 
+  "point": [
+   -9.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 67, 
+  "point": [
+   -12.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 68, 
+  "point": [
+   -15.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 69, 
+  "point": [
+   -18.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 70, 
+  "point": [
+   -21.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 71, 
+  "point": [
+   -24.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 72, 
+  "point": [
+   -27.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 73, 
+  "point": [
+   -30.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 74, 
+  "point": [
+   -33.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 75, 
+  "point": [
+   -36.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 76, 
+  "point": [
+   -39.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 77, 
+  "point": [
+   -42.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 78, 
+  "point": [
+   -45.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 79, 
+  "point": [
+   -48.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 80, 
+  "point": [
+   -51.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 81, 
+  "point": [
+   -54.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 82, 
+  "point": [
+   -57.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 83, 
+  "point": [
+   -60.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 84, 
+  "point": [
+   -63.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 85, 
+  "point": [
+   -66.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 86, 
+  "point": [
+   -69.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 87, 
+  "point": [
+   -72.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 88, 
+  "point": [
+   -75.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 89, 
+  "point": [
+   -78.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 90, 
+  "point": [
+   -81.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 91, 
+  "point": [
+   -84.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 92, 
+  "point": [
+   -87.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 93, 
+  "point": [
+   -90.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 94, 
+  "point": [
+   -93.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 95, 
+  "point": [
+   -96.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 96, 
+  "point": [
+   -99.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 97, 
+  "point": [
+   -102.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 98, 
+  "point": [
+   -105.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 99, 
+  "point": [
+   -108.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 100, 
+  "point": [
+   -111.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 101, 
+  "point": [
+   -114.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 102, 
+  "point": [
+   -117.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 103, 
+  "point": [
+   -120.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 104, 
+  "point": [
+   -123.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 105, 
+  "point": [
+   -126.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 106, 
+  "point": [
+   -129.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 107, 
+  "point": [
+   -132.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 108, 
+  "point": [
+   -135.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 109, 
+  "point": [
+   -138.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 110, 
+  "point": [
+   -141.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 111, 
+  "point": [
+   -144.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 112, 
+  "point": [
+   -147.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 113, 
+  "point": [
+   -150.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 114, 
+  "point": [
+   -153.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 115, 
+  "point": [
+   -156.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 116, 
+  "point": [
+   -159.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 117, 
+  "point": [
+   -162.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 118, 
+  "point": [
+   -165.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 119, 
+  "point": [
+   -168.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 120, 
+  "point": [
+   -171.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 121, 
+  "point": [
+   -174.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 122, 
+  "point": [
+   -177.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 123, 
+  "point": [
+   -180.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 124, 
+  "point": [
+   -183.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }, 
+ {
+  "strip": 7, 
+  "strip_index": 125, 
+  "point": [
+   -186.0, 
+   -6.0, 
+   0
+  ], 
+  "address": "10.0.0.32"
+ }
+]

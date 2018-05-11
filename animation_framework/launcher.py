@@ -13,7 +13,7 @@ from animation_framework.layout import Layout
 from animation_framework import opc
 from animation_framework import osc_utils
 from animation_framework import keyboard_utils
-from animation_framework import midi_utils
+#from animation_framework import midi_utils
 from animation_framework.state import STATE
 from animation_framework import utils
 
@@ -31,7 +31,7 @@ def get_command_line_parser(add_help=True):
         '--layout',
         dest='layout_file',
         # CHANGE ME
-        default=os.path.join(root_dir, 'layout', 'garage_layout_grid.json'),
+        default=os.path.join(root_dir, 'layout', 'block_ray_layout.json'),
         action='store',
         type=str,
         help='layout file')
@@ -84,7 +84,7 @@ def consume_config(options, parser):
     return options
 
 
-def find_root(start_dirs=[], look_for=set(["layout", "python"])):
+def find_root(start_dirs=[], look_for=set(["layout", "animation_framework"])):
     # type: ([str], set([str])) -> str
     """
     Find the root directory of the project by looking for some common directories
@@ -159,7 +159,7 @@ def launch(options=None, parser=None):
 
     keyboard_utils.launch_keyboard_thread(framework)
 
-    midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
+    #midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
 
     try:
         framework.serve_forever()

@@ -46,13 +46,14 @@ ADDRESS="10.0.0.32"
 
 Z_BASE = 120
 
+RADIUS = 20*12
 ANIMATION_PERIOD = 10*30
 THETA_PER_FRAME = 2.0*math.pi/ANIMATION_PERIOD
 
 def generate_box(strip_offset=0):
     print "Generating Box..."
 
-    X_CENTER = 10*12
+    X_CENTER = RADIUS
     Y_START = -3*12
     Y_STEP = IN_LINE_SPACING
 
@@ -77,7 +78,7 @@ def generate_box(strip_offset=0):
 def generate_tail(strip_offset=0):
     print "Generating Tail..."
 
-    X_CENTER = 10 * 12
+    X_CENTER = RADIUS
 
     Y_START = -3 * 12
     Y_STEP = -IN_LINE_SPACING
@@ -86,15 +87,15 @@ def generate_tail(strip_offset=0):
 
     lights = []
     for strip in range(-9, 9+1):
-        X_START = strip * 4 + X_CENTER
-        X_END = strip * 4.0 / 6 + X_CENTER
+        X_START = strip * 4.0 / 2 + X_CENTER
+        X_END = strip * 4.0 / 8 + X_CENTER
         X_STEP = (X_END - X_START) / STRIP_LENGTH
         lights += [
             {
                 "address": ADDRESS,
                 "strip": strip + strip_offset,
                 "strip_index": stripidx,
-                "point": [strip * 4 + X_CENTER + X_STEP * stripidx, Z_BASE, Y_START + stripidx * Y_STEP],
+                "point": [X_START + X_STEP * stripidx, Z_BASE, Y_START + stripidx * Y_STEP],
                 "section": "tail"
             }
             for stripidx in range(STRIP_LENGTH)
@@ -110,7 +111,7 @@ def generate_wing(inverse, strip_offset=0):
     print "Strip Offset:", strip_offset, "Inverse:", inverse
     INVERSE_MULT = -1 if inverse else 1
 
-    X_START = 10*12 + INVERSE_MULT*3*12
+    X_START = RADIUS + INVERSE_MULT*3*12
     X_STEP = INVERSE_MULT * IN_LINE_SPACING
     MAX_LENGTH = 64 #leds
     #Z_STEP = IN_LINE_SPACING/4 #1:4 height

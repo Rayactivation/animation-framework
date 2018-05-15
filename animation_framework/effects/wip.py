@@ -17,12 +17,15 @@ class SolidBackground(Effect):
 def printpixel(idx, pixel):
     print idx, pixel
 
-def compute_pixel(pixels, idx, pix, cos_rad, sin_rad):
-    point = pix['point']
+def compute_pixel(pixels, idx, pix, cos_rad, sin_rad, frame):
+    point = pix['points'][frame]
     z_normalized = point[1]-120
     x_rotated = cos_rad*point[0] - sin_rad*point[2]
     y_rotated = sin_rad*point[0] + cos_rad*point[2]
-    pixels[idx] = (abs(x_rotated), abs(y_rotated), z_normalized*10)
+    pixels[idx] = (
+        0, #abs(x_rotated),
+        z_normalized * 3, #abs(y_rotated),
+        100)
 
 class Gradient(Effect):
     def __init__(self):
@@ -31,12 +34,15 @@ class Gradient(Effect):
         for pix in STATE.layout.pixels:
             curmaxz = max(pix['point'][1], curmaxz)
         print "Max Z", curmaxz
+        self.frames_per_period = len(STATE.layout.pixels[0]['points'])
 
     def next_frame(self, pixels, t):
         #map(printpixel, pixels)
         cos_rad = math.cos(t)
         sin_rad = math.sin(t)
-        map(lambda (idx, pix): compute_pixel(pixels, idx, pix, cos_rad, sin_rad), enumerate(STATE.layout.pixels))
+        frame = int(t*STATE.fps) % self.frames_per_period
+        #print 'Frame', frame, 'T', t, 'frames per period', self.frames_per_period, "fps", STATE.fps, "trunc", int(t/STATE.fps)
+        map(lambda (idx, pix): compute_pixel(pixels, idx, pix, cos_rad, sin_rad, frame), enumerate(STATE.layout.pixels))
 
 #    def is_completed(self, t):
  #       return random.randint(0,1)

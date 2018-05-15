@@ -2,7 +2,7 @@ import collections
 
 import numpy as np
 
-_GROUPBY = ["address", "strip", "strip_index", "section"]
+_GROUPBY = ["address", "strip", "strip_index", "section", "pixels"]
 
 class Layout(object):
 

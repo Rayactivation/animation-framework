@@ -1,3 +1,0 @@
-pyOSC
-numpy==1.13.1
-pytest

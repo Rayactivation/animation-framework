@@ -1,11 +1,12 @@
 """Framework for running animations and effects"""
+from __future__ import absolute_import
+
 import glob
 import importlib
 import os.path
 import sys
 import time
-from collections import OrderedDict
-from collections import defaultdict
+from collections import OrderedDict, defaultdict
 from random import choice
 from threading import Thread
 
@@ -25,6 +26,7 @@ class AnimationFramework(object):
     def __init__(self,
                  osc_server,
                  opc_client,
+                 effects_dir,
                  scenes=None,
                  first_scene=None,):
         # type: (OSCServer, Client, List(OSCClient), {str, Scene}) -> None
@@ -33,7 +35,7 @@ class AnimationFramework(object):
         self.fps = STATE.fps
 
         # Load all scenes from effects package. Then set initial index and load it up
-        loaded_scenes = load_scenes_and_fountains()
+        loaded_scenes = load_scenes_and_fountains(effects_dir)
         if not loaded_scenes:
             raise Exception("No scenes found")
         self.scenes = scenes or loaded_scenes

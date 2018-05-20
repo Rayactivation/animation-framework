@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 import random, math
 from animation_framework.model import Effect, Scene, MultiEffect
 from animation_framework.state import STATE

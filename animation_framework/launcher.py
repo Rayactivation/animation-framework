@@ -5,6 +5,7 @@ import argparse
 import json
 import logging
 from multiprocessing import Process
+from collections import defaultdict
 import os
 import sys
 
@@ -25,21 +26,31 @@ logger = logging.getLogger(__name__)
 def get_command_line_parser(add_help=True):
     root_dir = find_root()
 
+    package_json_path = os.path.join(root_dir,'package.json')
+    package_config = defaultdict()
+    if(root_dir and os.path.isfile(package_json_path)):
+        json = parse_json_file(package_json_path)
+        if(json['config']):
+            for k,v in json['config'].items():
+                package_config[k]=v
+
     parser = argparse.ArgumentParser(add_help=add_help)
     parser.add_argument(
         '-l',
         '--layout',
+        '--layout-file',
         dest='layout_file',
         # CHANGE ME
-        default=os.path.join(root_dir, 'layout', 'block_ray_layout.json'),
+        default= package_config['layout-file'] or os.path.join(root_dir, 'layout', 'block_ray_layout.json'),
         action='store',
         type=str,
         help='layout file')
     parser.add_argument(
         '-s',
         '--servers',
+        '--servers-file',
         dest='servers',
-        default=os.path.join(root_dir, 'layout', 'servers_local.json'),
+        default=package_config['servers-file'] or os.path.join(root_dir, 'layout', 'servers_local.json'),
         action='store',
         type=str,
         help='json file for server addresses')
@@ -52,12 +63,8 @@ def get_command_line_parser(add_help=True):
         type=str,
         help='First scene to display')
     parser.add_argument(
-        '-f', '--fps', dest='fps', default=30, action='store', type=int, help='frames per second')
+        '-f', '--fps', dest='fps', default=package_config['fps'] or 30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
-    parser.add_argument('--midi-port', dest='midi_port', default=None, action='store')
-    parser.add_argument('--midi-port-virtual', dest='midi_port_virtual', default=None, action='store')
-    parser.add_argument('--midi-backend', dest='midi_backend', default='mido.backends.rtmidi_python', action='store')
-
     return parser
 
 

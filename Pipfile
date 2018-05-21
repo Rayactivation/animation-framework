@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+numpy = "==1.13.1"
+pytest = "*"
+pyOSC = "*"
+rtmidi-python = "*"
+rtmidi = "*"
+python-rtmidi = "*"
+
+[requires]
+python_version = "2.7"

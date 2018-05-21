@@ -3,7 +3,7 @@ node_modules
 .DS_Store
 **/*.pyo
 **/*.pyc
-animation_framework/.idea
+python/.idea
 .idea
 
 .#*

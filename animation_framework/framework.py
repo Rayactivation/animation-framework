@@ -12,10 +12,10 @@ from threading import Thread
 
 from OSC import OSCServer
 
-from animation_framework.opc import Client
+from animation_framework._opc import Client
 from animation_framework.pixels import Pixels
 from animation_framework.state import STATE
-from animation_framework.midi_utils import DrumHit
+from animation_framework.midi.midi_utils import DrumHit
 from animation_framework.osc_utils import OSCStorage
 from animation_framework.model import Scene
 

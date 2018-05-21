@@ -13,7 +13,7 @@ from animation_framework.framework import AnimationFramework
 from animation_framework.layout import Layout
 #from animation_framework import midi_utils
 from animation_framework.state import STATE
-from animation_framework import utils, osc_utils, opc, keyboard_utils
+from animation_framework import utils, osc_utils, _opc, _keyboard
 
 logger = logging.getLogger(__name__)
 
@@ -124,7 +124,7 @@ def parse_json_file(filename):
 
 
 def create_opc_client(server, verbose=False):
-    client = opc.Client(server_ip_port=server, verbose=False)
+    client = _opc.Client(server_ip_port=server, verbose=False)
     if client.can_connect():
         print '    connected to %s' % server
     else:
@@ -158,7 +158,7 @@ def build_opc_client(verbose):
         if 'all' in opc_servers:
             client = create_opc_client(opc_servers['all'][0], verbose)
             clients[client] = range(STATE.layout.n_pixels)
-        return opc.MultiClient(clients)
+        return _opc.MultiClient(clients)
 
 
 
@@ -175,7 +175,7 @@ def launch(options=None, parser=None):
 
     framework = init_animation_framework(osc_server, opc_client, config.effects_directory, config.scene)
 
-    keyboard_utils.launch_keyboard_thread(framework)
+    _keyboard.launch_keyboard_thread(framework)
 
     #midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
 

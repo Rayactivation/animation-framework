@@ -7,3 +7,5 @@ animation_framework/.idea
 .idea
 
 .#*
+
+*.egg-info

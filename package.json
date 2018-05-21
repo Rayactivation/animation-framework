@@ -9,6 +9,7 @@
   },
   "dependencies": {},
   "config": {
+    "effects-directory": "effects",
     "layout-file": "layout/block_ray_layout_animated.json",
     "servers-file": "layout/servers_local.json",
     "fps": 30

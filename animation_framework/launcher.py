@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from __future__ import division
+from __future__ import absolute_import, division
 import argparse
 import json
 import logging
@@ -9,14 +9,11 @@ from collections import defaultdict
 import os
 import sys
 
-import animation_framework.framework as AF
+from animation_framework.framework import AnimationFramework
 from animation_framework.layout import Layout
-from animation_framework import opc
-from animation_framework import osc_utils
-from animation_framework import keyboard_utils
 #from animation_framework import midi_utils
 from animation_framework.state import STATE
-from animation_framework import utils
+from animation_framework import utils, osc_utils, _opc, _keyboard
 
 logger = logging.getLogger(__name__)
 
@@ -35,6 +32,16 @@ def get_command_line_parser(add_help=True):
                 package_config[k]=v
 
     parser = argparse.ArgumentParser(add_help=add_help)
+    parser.add_argument(
+        '-e',
+        '--effects',
+        '--effects-directory',
+        dest='effects_directory',
+        # CHANGE ME
+        default=package_config['effects-directory'] or os.path.join(root_dir, 'effects'),
+        action='store',
+        type=str,
+        help='layout file')
     parser.add_argument(
         '-l',
         '--layout',
@@ -117,7 +124,7 @@ def parse_json_file(filename):
 
 
 def create_opc_client(server, verbose=False):
-    client = opc.Client(server_ip_port=server, verbose=False)
+    client = _opc.Client(server_ip_port=server, verbose=False)
     if client.can_connect():
         print '    connected to %s' % server
     else:
@@ -127,10 +134,14 @@ def create_opc_client(server, verbose=False):
     return client
 
 
-def init_animation_framework(osc_server, opc_client, first_scene=None):
+def init_animation_framework(osc_server, opc_client, effects_dir, first_scene=None):
     # type: (OSCServer, Client, [OSCClient], str) -> AnimationFramework
-    mgr = AF.AnimationFramework(
-        osc_server=osc_server, opc_client=opc_client, first_scene=first_scene)
+    mgr = AnimationFramework(
+        osc_server=osc_server,
+        opc_client=opc_client,
+        effects_dir=effects_dir,
+        first_scene=first_scene
+    )
     return mgr
 
 
@@ -147,7 +158,7 @@ def build_opc_client(verbose):
         if 'all' in opc_servers:
             client = create_opc_client(opc_servers['all'][0], verbose)
             clients[client] = range(STATE.layout.n_pixels)
-        return opc.MultiClient(clients)
+        return _opc.MultiClient(clients)
 
 
 
@@ -162,9 +173,9 @@ def launch(options=None, parser=None):
         port=int(STATE.servers["hosting"]["osc_server"]["port"]))
     opc_client = build_opc_client(config.verbose)
 
-    framework = init_animation_framework(osc_server, opc_client, config.scene)
+    framework = init_animation_framework(osc_server, opc_client, config.effects_directory, config.scene)
 
-    keyboard_utils.launch_keyboard_thread(framework)
+    _keyboard.launch_keyboard_thread(framework)
 
     #midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
 

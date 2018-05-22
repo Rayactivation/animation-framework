@@ -2,7 +2,7 @@ from effects import bitmap, example, midi_effects
 
 from animation_framework.model import Scene, MultiEffect
 from animation_framework.state import STATE
-from animation_framework.midi_utils import MidiLauncher
+from animation_framework.midi.midi_utils import MidiLauncher
 
 DURATION=30
 

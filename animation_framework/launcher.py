@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 
-from __future__ import division
+from __future__ import absolute_import, division
 import argparse
 import json
 import logging
 from multiprocessing import Process
+from collections import defaultdict
 import os
 import sys
 
-import animation_framework.framework as AF
+from animation_framework.framework import AnimationFramework
 from animation_framework.layout import Layout
-from animation_framework import opc
-from animation_framework import osc_utils
-from animation_framework import keyboard_utils
-from animation_framework import midi_utils
 from animation_framework.state import STATE
-from animation_framework import utils
+from animation_framework import utils, osc_utils, _opc, _keyboard
+
+import animation_framework.midi.midi_utils
+
 
 logger = logging.getLogger(__name__)
 
@@ -25,21 +25,41 @@ logger = logging.getLogger(__name__)
 def get_command_line_parser(add_help=True):
     root_dir = find_root()
 
+    package_json_path = os.path.join(root_dir,'package.json')
+    package_config = defaultdict()
+    if(root_dir and os.path.isfile(package_json_path)):
+        json = parse_json_file(package_json_path)
+        if(json['config']):
+            for k,v in json['config'].items():
+                package_config[k]=v
+
     parser = argparse.ArgumentParser(add_help=add_help)
+    parser.add_argument(
+        '-e',
+        '--effects',
+        '--effects-directory',
+        dest='effects_directory',
+        # CHANGE ME
+        default=package_config['effects-directory'] or os.path.join(root_dir, 'effects'),
+        action='store',
+        type=str,
+        help='layout file')
     parser.add_argument(
         '-l',
         '--layout',
+        '--layout-file',
         dest='layout_file',
         # CHANGE ME
-        default=os.path.join(root_dir, 'layout', 'garage_layout_grid.json'),
+        default= package_config['layout-file'] or os.path.join(root_dir, 'layout', 'block_ray_layout.json'),
         action='store',
         type=str,
         help='layout file')
     parser.add_argument(
         '-s',
         '--servers',
+        '--servers-file',
         dest='servers',
-        default=os.path.join(root_dir, 'layout', 'servers_local.json'),
+        default=package_config['servers-file'] or os.path.join(root_dir, 'layout', 'servers_local.json'),
         action='store',
         type=str,
         help='json file for server addresses')
@@ -52,9 +72,11 @@ def get_command_line_parser(add_help=True):
         type=str,
         help='First scene to display')
     parser.add_argument(
-        '-f', '--fps', dest='fps', default=30, action='store', type=int, help='frames per second')
+        '-f', '--fps', dest='fps', default=package_config['fps'] or 30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
     parser.add_argument('--midi-port', dest='midi_port', default=None, action='store')
+
+
     parser.add_argument('--midi-port-virtual', dest='midi_port_virtual', default=None, action='store')
     parser.add_argument('--midi-backend', dest='midi_backend', default='mido.backends.rtmidi_python', action='store')
 
@@ -84,7 +106,7 @@ def consume_config(options, parser):
     return options
 
 
-def find_root(start_dirs=[], look_for=set(["layout", "python"])):
+def find_root(start_dirs=[], look_for=set(["layout", "animation_framework"])):
     # type: ([str], set([str])) -> str
     """
     Find the root directory of the project by looking for some common directories
@@ -110,7 +132,7 @@ def parse_json_file(filename):
 
 
 def create_opc_client(server, verbose=False):
-    client = opc.Client(server_ip_port=server, verbose=False)
+    client = _opc.Client(server_ip_port=server, verbose=False)
     if client.can_connect():
         print '    connected to %s' % server
     else:
@@ -120,10 +142,14 @@ def create_opc_client(server, verbose=False):
     return client
 
 
-def init_animation_framework(osc_server, opc_client, first_scene=None):
+def init_animation_framework(osc_server, opc_client, effects_dir, first_scene=None):
     # type: (OSCServer, Client, [OSCClient], str) -> AnimationFramework
-    mgr = AF.AnimationFramework(
-        osc_server=osc_server, opc_client=opc_client, first_scene=first_scene)
+    mgr = AnimationFramework(
+        osc_server=osc_server,
+        opc_client=opc_client,
+        effects_dir=effects_dir,
+        first_scene=first_scene
+    )
     return mgr
 
 
@@ -140,7 +166,7 @@ def build_opc_client(verbose):
         if 'all' in opc_servers:
             client = create_opc_client(opc_servers['all'][0], verbose)
             clients[client] = range(STATE.layout.n_pixels)
-        return opc.MultiClient(clients)
+        return _opc.MultiClient(clients)
 
 
 
@@ -155,10 +181,11 @@ def launch(options=None, parser=None):
         port=int(STATE.servers["hosting"]["osc_server"]["port"]))
     opc_client = build_opc_client(config.verbose)
 
-    framework = init_animation_framework(osc_server, opc_client, config.scene)
+    framework = init_animation_framework(osc_server, opc_client, config.effects_directory, config.scene)
 
-    keyboard_utils.launch_keyboard_thread(framework)
+    _keyboard.launch_keyboard_thread(framework)
 
+    #TODO - Extensions
     midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
 
     try:

@@ -9,7 +9,7 @@ parser.add_argument(
     '-o',
     '--output_file',
     dest='output_file',
-    default='block_ray_layout.json',
+    default='block_ray_layout_animated.json',
     action='store',
     type=str,
     help='json file to output to. Will be overwritten')
@@ -67,7 +67,7 @@ def generate_box(strip_offset=0):
             "points": [[strip*4+X_CENTER, Z_BASE, Y_START + stripidx*Y_STEP] for _ in range(ANIMATION_PERIOD)],
             "section": "body"
         }
-        for strip in range(-9,9+1) for stripidx in range(126)
+        for strip in range(-9,9+1) for stripidx in range(126+3*(9-abs(strip)))
     ]
 
     for point in lights:

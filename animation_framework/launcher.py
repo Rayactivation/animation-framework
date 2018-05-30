@@ -4,18 +4,15 @@ from __future__ import absolute_import, division
 import argparse
 import json
 import logging
-from multiprocessing import Process
 from collections import defaultdict
 import os
 import sys
+import pkg_resources
 
 from animation_framework.framework import AnimationFramework
 from animation_framework.layout import Layout
 from animation_framework.state import STATE
 from animation_framework import utils, osc_utils, _opc, _keyboard
-
-import animation_framework.midi.midi_utils
-
 
 logger = logging.getLogger(__name__)
 
@@ -74,11 +71,9 @@ def get_command_line_parser(add_help=True):
     parser.add_argument(
         '-f', '--fps', dest='fps', default=package_config['fps'] or 30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
-    parser.add_argument('--midi-port', dest='midi_port', default=None, action='store')
 
-
-    parser.add_argument('--midi-port-virtual', dest='midi_port_virtual', default=None, action='store')
-    parser.add_argument('--midi-backend', dest='midi_backend', default='mido.backends.rtmidi_python', action='store')
+    for ep in pkg_resources.iter_entry_points('animation_framework.plugins.config'):
+        ep.load()(parser)
 
     return parser
 
@@ -168,7 +163,11 @@ def build_opc_client(verbose):
             clients[client] = range(STATE.layout.n_pixels)
         return _opc.MultiClient(clients)
 
-
+def register_listeners(config):
+    print "Registering listeners..."
+    for ep in pkg_resources.iter_entry_points('animation_framework.plugins.listeners'):
+        print "Registering", ep
+        listener = ep.load()(config)
 
 
 def launch(options=None, parser=None):
@@ -186,7 +185,8 @@ def launch(options=None, parser=None):
     _keyboard.launch_keyboard_thread(framework)
 
     #TODO - Extensions
-    midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
+    register_listeners(config)
+    #midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
 
     try:
         framework.serve_forever()

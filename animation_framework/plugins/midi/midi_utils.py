@@ -30,7 +30,7 @@ open_crash_high_hat = 85
 high_hat_close=44
 
 def listen_for_midi(backend='mido.backends.rtmidi_python', port=None, virtual=None):
-    mido.set_backend(name='mido.backends.rtmidi_python', load=True)
+    mido.set_backend(name=backend, load=True)
 
     midi_thread = Thread(target=_forward_midi, name="MidoListeningThread", args=(port, virtual))
     midi_thread.setDaemon(True)

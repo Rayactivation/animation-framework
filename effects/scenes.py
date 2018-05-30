@@ -1,8 +1,7 @@
-from effects import bitmap, example, midi_effects
+from effects import bitmap
 
-from animation_framework.model import Scene, MultiEffect
+from animation_framework.model import MultiEffect
 from animation_framework.state import STATE
-from animation_framework.midi.midi_utils import MidiLauncher
 
 DURATION=30
 
@@ -42,6 +41,7 @@ SCENES = [
     #        bitmap.MidiLetterListener()
     #    ]
     #),
+    """
     Scene(
         "DrumHarderRows",
         effects=[
@@ -59,4 +59,5 @@ SCENES = [
             MidiLauncher(midi_effects.DrumHitRow)
         ]
     )
+    """
 ]

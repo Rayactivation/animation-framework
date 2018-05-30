@@ -1,5 +1,4 @@
-from animation_framework.model import Effect, MultiEffect, Scene
-from animation_framework.midi.midi_utils import AbstractMidiListener, MidiLauncher
+from animation_framework.model import Effect
 from animation_framework.state import STATE
 
 class DrumHitRow(Effect):

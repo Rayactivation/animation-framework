@@ -3,8 +3,10 @@ import  setuptools
 
 setuptools.setup(
     name="simple_af",
-    description="Framework for Animation over OPC and OSC",
+    description="Framework for Animation over OPC and OSC. Is it simple because it's easy to use, or cause it's simple design?",
     version="0.1",
+    author="David Foregger",
+    url="https://github.com/Hall-Ave/simple-af",
     #packages=setuptools.find_packages(),
     packages=[
         'simple_af',
@@ -29,6 +31,11 @@ setuptools.setup(
         'simple_af.plugins.layout': [
             'midi=simple_af.plugins.midi:annotate_layout'
         ]
-    }
+    },
+    classifiers=[
+        "Programming Language :: Python :: 2",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+    ]
 
 )

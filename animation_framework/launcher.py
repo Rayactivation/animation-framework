@@ -163,11 +163,11 @@ def build_opc_client(verbose):
             clients[client] = range(STATE.layout.n_pixels)
         return _opc.MultiClient(clients)
 
-def register_listeners(config):
+def register_listeners(config, framework):
     print "Registering listeners..."
     for ep in pkg_resources.iter_entry_points('animation_framework.plugins.listeners'):
         print "Registering", ep
-        listener = ep.load()(config)
+        listener = ep.load()(config, framework)
 
 
 def launch(options=None, parser=None):
@@ -182,11 +182,7 @@ def launch(options=None, parser=None):
 
     framework = init_animation_framework(osc_server, opc_client, config.effects_directory, config.scene)
 
-    _keyboard.launch_keyboard_thread(framework)
-
-    #TODO - Extensions
-    register_listeners(config)
-    #midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
+    register_listeners(config, framework)
 
     try:
         framework.serve_forever()

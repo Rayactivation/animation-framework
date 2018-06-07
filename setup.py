@@ -22,7 +22,11 @@ setuptools.setup(
             'midi=animation_framework.plugins.midi:configure_parser'
         ],
         'animation_framework.plugins.listeners': [
+            'keyboard=animation_framework._keyboard:launch_keyboard_thread',
             'midi=animation_framework.plugins.midi:register_listeners'
+        ],
+        'animation_framework.plugins.layout': [
+            'midi=animation_framework.plugins.midi:annotate_layout'
         ]
     }
 

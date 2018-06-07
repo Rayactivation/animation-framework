@@ -11,7 +11,6 @@ class Layout(object):
         self.n_pixels = len(pixels)
         self.grid = np.zeros(self.n_pixels, np.int)
 
-
         for attr in _GROUPBY:
             setattr(self, attr, collections.defaultdict(list))
 
@@ -29,3 +28,9 @@ class Layout(object):
     def colmod(self, i):
         return divmod(i, self.columns)[1]
     """
+
+    def annotate(config, framework):
+        print "Registering listeners..."
+        for ep in pkg_resources.iter_entry_points('animation_framework.plugins.listeners'):
+            print "Registering", ep
+            listener = ep.load()(config, framework)

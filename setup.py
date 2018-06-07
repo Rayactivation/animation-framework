@@ -4,7 +4,7 @@ import  setuptools
 setuptools.setup(
     name="simple_af",
     description="Framework for Animation over OPC and OSC. Is it simple because it's easy to use, or cause it's simple design?",
-    version="0.1",
+    version="0.0.3",
     author="David Foregger",
     url="https://github.com/Hall-Ave/simple-af",
     #packages=setuptools.find_packages(),

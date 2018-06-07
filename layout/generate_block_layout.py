@@ -44,7 +44,8 @@ SCALE = options.scale
 
 ADDRESS="10.0.0.32"
 
-Z_BASE = 120
+Z_BASE = 12*13
+Z_BOOM = Z_BASE-6
 
 RADIUS = 20*12
 ANIMATION_PERIOD = 10*30
@@ -56,7 +57,7 @@ def generate_box(strip_offset=0):
     X_CENTER = RADIUS
     Y_START = -3*12
     Y_STEP = IN_LINE_SPACING
-
+    HEAD_LIGHTS = [5,5,6,7,6,5,4,3,2,1,0]
     lights = [
         {
             "address": ADDRESS,
@@ -67,7 +68,7 @@ def generate_box(strip_offset=0):
             "points": [[strip*4+X_CENTER, Z_BASE, Y_START + stripidx*Y_STEP] for _ in range(ANIMATION_PERIOD)],
             "section": "body"
         }
-        for strip in range(-9,9+1) for stripidx in range(126+3*(9-abs(strip)))
+        for strip in range(-9,9+1) for stripidx in range(126+3*(HEAD_LIGHTS[abs(strip)]))
     ]
 
     for point in lights:
@@ -83,12 +84,12 @@ def generate_tail(strip_offset=0):
     Y_START = -3 * 12
     Y_STEP = -IN_LINE_SPACING
 
-    STRIP_LENGTH = 64
+    STRIP_LENGTH = 100
 
     lights = []
-    for strip in range(-9, 9+1):
-        X_START = strip * 4.0 / 2 + X_CENTER
-        X_END = strip * 4.0 / 8 + X_CENTER
+    for strip in range(-4, 4+1):
+        X_START = 2*strip * 4.0 / 2 + X_CENTER
+        X_END = 2*strip * 4.0 / 8 + X_CENTER
         X_STEP = (X_END - X_START) / STRIP_LENGTH
         lights += [
             {
@@ -137,7 +138,41 @@ def generate_wing(inverse, strip_offset=0):
         for strip in range(-16, 16 + 1) for stripidx in range(MAX_LENGTH-abs(strip)*2)
     ]
 
-lights = generate_box()+generate_tail(19) + generate_wing(False, 2*19) + generate_wing(True, 2*19+33)
+def generate_pole(strip_offset=0):
+    print "Generating pole arm"
+    Z_STEP = IN_LINE_SPACING
+    Z_LENGTH = int((Z_BASE-6)/IN_LINE_SPACING)
+    return [
+        {
+            "address": ADDRESS,
+            "strip": strip_offset,
+            "strip_index": stripidx,
+            "point": [0, 0 + stripidx * Z_STEP, 0],
+            "points": [[0, 0 + stripidx * Z_STEP, 0] for _ in range(ANIMATION_PERIOD)],
+            "section": "pole"
+        }
+        for stripidx in range(Z_LENGTH)
+    ]
+
+def generate_boom(strip_offset=0):
+    print "Generating pole arm"
+    X_STEP = IN_LINE_SPACING
+    X_LENGTH = int(RADIUS/IN_LINE_SPACING)
+    return [
+        {
+            "address": ADDRESS,
+            "strip": strip_offset,
+            "strip_index": stripidx,
+            "point": [stripidx*X_STEP, Z_BOOM, 0],
+            "points": [[stripidx*X_STEP, Z_BOOM, 0] for _ in range(ANIMATION_PERIOD)],
+            "section": "boom"
+        }
+        for stripidx in range(X_LENGTH)
+    ]
+
+
+
+lights = generate_box()+generate_tail(19) + generate_wing(False, 2*19) + generate_wing(True, 2*19+33)+generate_pole(2*19+66)+generate_boom(2*19+67)
 
 print "Writing to file:", filename, "Pretty Print:", options.pretty_print
 with open(filename, 'w') as file_out:

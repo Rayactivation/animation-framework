@@ -1,5 +1,5 @@
 from __future__ import absolute_import
 
-from animation_framework.launcher import launch
+from simple_af.launcher import launch
 
 launch()

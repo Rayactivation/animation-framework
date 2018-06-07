@@ -11,12 +11,12 @@ from threading import Thread
 
 from OSC import OSCServer
 
-from animation_framework._opc import Client
-from animation_framework.pixels import Pixels
-from animation_framework.state import STATE
-from animation_framework.plugins.midi.midi_utils import DrumHit
-from animation_framework.osc_utils import OSCStorage
-from animation_framework.model import Scene
+from simple_af._opc import Client
+from simple_af.pixels import Pixels
+from simple_af.state import STATE
+from simple_af.plugins.midi.midi_utils import DrumHit
+from simple_af.osc_utils import OSCStorage
+from simple_af.model import Scene
 
 FAIL_ON_LOAD = True
 

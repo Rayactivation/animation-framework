@@ -1,8 +1,8 @@
 import random
 import numpy as np
 from collections import namedtuple
-from animation_framework.model import Effect, Scene, MultiEffect
-from animation_framework.state import STATE
+from simple_af.model import Effect, Scene, MultiEffect
+from simple_af.state import STATE
 
 #Name is just for easier print/debugging
 Bitmap = namedtuple("Bitmap", ["name", "height", "width", "bitmap"])

@@ -2,14 +2,16 @@ import  setuptools
 
 
 setuptools.setup(
-    name="animation_framework",
-    description="Framework for Animation over OPC and OSC",
+    name="simple_af",
+    description="Framework for Animation over OPC and OSC. Is it simple because it's easy to use, or cause it's simple design?",
     version="0.1",
+    author="David Foregger",
+    url="https://github.com/Hall-Ave/simple-af",
     #packages=setuptools.find_packages(),
     packages=[
-        'animation_framework',
-        'animation_framework.plugins.midi',
-        'animation_framework.plugins.stock_effectsg'
+        'simple_af',
+        'simple_af.plugins.midi',
+        'simple_af.plugins.stock_effects'
     ],
     install_requires=[
         "pyOSC==0.3.5b5294",
@@ -19,16 +21,21 @@ setuptools.setup(
         'midi': ['mido']
     },
     entry_points={
-        'animation_framework.plugins.config': [
-            'midi=animation_framework.plugins.midi:configure_parser'
+        'simple_af.plugins.config': [
+            'midi=simple_af.plugins.midi:configure_parser'
         ],
-        'animation_framework.plugins.listeners': [
-            'keyboard=animation_framework._keyboard:launch_keyboard_thread',
-            'midi=animation_framework.plugins.midi:register_listeners'
+        'simple_af.plugins.listeners': [
+            'keyboard=simple_af._keyboard:launch_keyboard_thread',
+            'midi=simple_af.plugins.midi:register_listeners'
         ],
-        'animation_framework.plugins.layout': [
-            'midi=animation_framework.plugins.midi:annotate_layout'
+        'simple_af.plugins.layout': [
+            'midi=simple_af.plugins.midi:annotate_layout'
         ]
-    }
+    },
+    classifiers=[
+        "Programming Language :: Python :: 2",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+    ]
 
 )

@@ -1,8 +1,3 @@
-from effects import bitmap
-
-from animation_framework.model import MultiEffect
-from animation_framework.state import STATE
-
 DURATION=30
 
 

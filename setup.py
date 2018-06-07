@@ -5,11 +5,12 @@ setuptools.setup(
     name="animation_framework",
     description="Framework for Animation over OPC and OSC",
     version="0.1",
-    packages=setuptools.find_packages(),
-    #packages=[
-    #    'animation_framework',
-    #    'animation_framework.midi'
-    #],
+    #packages=setuptools.find_packages(),
+    packages=[
+        'animation_framework',
+        'animation_framework.plugins.midi',
+        'animation_framework.plugins.stock_effectsg'
+    ],
     install_requires=[
         "pyOSC==0.3.5b5294",
         "numpy==1.13.1"

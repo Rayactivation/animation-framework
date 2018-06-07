@@ -1,6 +1,8 @@
+from __future__ import absolute_import
+
 from animation_framework.model import Effect, MultiEffect
 from animation_framework.state import STATE
-from . import bitmap
+from animation_framework.plugins.stock_effects import bitmap
 
 class DrumHitRow(Effect):
     def __init__(self, data, *args, **kwargs):
@@ -91,7 +93,7 @@ class SuperBass(MultiEffect):
                 self.add_effect(bitmap.DrawMovingBitmap(bitmap.BIG_LETTERS['B'], (255, 255, 255), -1, 0))
 
 
-DURATION = 5
+DURATION=30
 class FlashTony(MultiEffect):
     def before_rendering(self, pixels, t):
         super(FlashTony, self).before_rendering(pixels, t)
@@ -106,11 +108,11 @@ class MidiLetterListener(MultiEffect):
             #self.add_effect(MovingColor(data,slice(0,None)))
             #self.add_effect(DrumHitRow(data))
             if(data.note==36): #'B'ass
-                self.add_effect(bitmap.DrawBitmap(bitmap.LETTERS['B'], (255,255,255)))
+                self.add_effect(bitmap.DrawBitmap(bitmap.LETTERS['B'], (255, 255, 255)))
             else:
             #elif(data.note in [43,47,48]): #'T'om
             #self.add_effect(DrawMovingBitmap(LETTERS_SIX['M'], (255,255,255), -1, 1))
                 #self.add_effect(FlashBitmap(LETTERS_SIX['A'], (255,255,255), -1, 30, 1))
-                self.add_effect(bitmap.FlashBitmap(bitmap.CACHED_WORDS['DRUM HARDER'], (255,255,255), -1, 30, 1))
+                self.add_effect(bitmap.FlashBitmap(bitmap.CACHED_WORDS['DRUM HARDER'], (255, 255, 255), -1, 30, 1))
             #else:
             #    self.add_effect(DrumHitRow(data))

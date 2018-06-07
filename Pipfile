@@ -12,6 +12,7 @@ pyOSC = "*"
 rtmidi-python = "*"
 rtmidi = "*"
 python-rtmidi = "*"
+mido = "*"
 
 [requires]
 python_version = "2.7"

@@ -32,25 +32,6 @@ class Pixels(object):
         # print_avg_brightness(self.pixels)
         client.put_pixels(self.pixels)
 
-    def update_slices(self, additive, color, slices):
-        for r, c in slices:
-            if additive:
-                self[r, c] += color
-            else:
-                self[r, c] = color
-
-    def update_pairwise(self, additive, color, pairwise):
-        zipped = zip(*pairwise)
-        if zipped:
-            self.update_indicies(
-                additive=additive, color=color, x_values=zipped[0], y_values=zipped[1])
-
-    def update_indicies(self, additive, color, x_values, y_values):
-        if additive:
-            self[x_values, y_values] += color
-        else:
-            self[x_values, y_values] = color
-
 
 def is_wrap_around_slice(sl):
     if sl.start is not None and sl.stop is not None:

@@ -3,57 +3,112 @@ from __future__ import absolute_import
 import random, math
 from animation_framework.model import Effect, Scene, MultiEffect
 from animation_framework.state import STATE
+import animation_framework.experimental.color_utils as CU
 
-class SolidBackground(Effect):
+#TODO - Move to state
+#RAY_ROTATION_RATE = -2 * math.pi / 40.0
+RAY_ROTATION_RATE = 1
+
+class SolidBoom(Effect):
     """Always return a singular color. Can be bound top/bottom and
     left-right (wrap-around not supported yet)
     """
 
-    def __init__(self, color=(255, 0, 0), start_col=0, end_col=None, start_row=0, end_row=None):
+    def __init__(self,
+                 color=(128, 128, 128)
+                 #color=(0,0,0)
+        ):
         Effect.__init__(self)
         self.color = color
-        self.slice = (slice(start_row, end_row), slice(start_col, end_col))
-        print "Created with color", self.color
 
+    def next_frame(self, pixels, t):
+        pixels[STATE.layout.section['boom']] = self.color
+        pixels[STATE.layout.section['pole']] = self.color
 
-def printpixel(idx, pixel):
-    print idx, pixel
+def blue_green(pixels, idx, point, cos_rad, sin_rad):
+    pixels[idx] = (
+        0,
+        point[1] * 3,
+        100)
 
-def compute_pixel(pixels, idx, pix, cos_rad, sin_rad, frame):
-    point = pix['points'][frame]
-    z_normalized = point[1]-120
+def purple_fade(pixels, idx, point, cos_rad, sin_rad):
     x_rotated = cos_rad*point[0] - sin_rad*point[2]
     y_rotated = sin_rad*point[0] + cos_rad*point[2]
     pixels[idx] = (
-        0, #abs(x_rotated),
-        z_normalized * 3, #abs(y_rotated),
-        100)
+        min(255,abs(x_rotated)),
+        0,
+        min(255, abs(y_rotated)))
+
+
+def purple_fade_z(pixels, idx, point, cos_rad, sin_rad):
+    x_rotated = cos_rad*point[0] - sin_rad*point[2]
+    y_rotated = sin_rad*point[0] + cos_rad*point[2]
+    pixels[idx] = (
+        min(255,abs(x_rotated)),
+        point[1]*3,
+        min(255, abs(y_rotated)))
+
 
 class Gradient(Effect):
-    def __init__(self):
+    def __init__(self, fun):
         super(Gradient, self).__init__()
-        curmaxz=0
-        for pix in STATE.layout.pixels:
-            curmaxz = max(pix['point'][1], curmaxz)
-        print "Max Z", curmaxz
         self.frames_per_period = len(STATE.layout.pixels[0]['points'])
+        self.fun = fun
+
 
     def next_frame(self, pixels, t):
-        #map(printpixel, pixels)
-        cos_rad = math.cos(t)
-        sin_rad = math.sin(t)
+        cos_rad = math.cos(t*RAY_ROTATION_RATE)
+        sin_rad = math.sin(t*RAY_ROTATION_RATE)
         frame = int(t*STATE.fps) % self.frames_per_period
-        #print 'Frame', frame, 'T', t, 'frames per period', self.frames_per_period, "fps", STATE.fps, "trunc", int(t/STATE.fps)
-        map(lambda (idx, pix): compute_pixel(pixels, idx, pix, cos_rad, sin_rad, frame), enumerate(STATE.layout.pixels))
+        map(lambda (idx, pix): self.fun(pixels, idx, pix['points_normalized'][frame], cos_rad, sin_rad), enumerate(STATE.layout.pixels))
 
-#    def is_completed(self, t):
- #       return random.randint(0,1)
+
+
+class Rainbow(Gradient):
+    def __init__(self, size=1000, hue_start=0, hue_end=255, saturation=255, value=255):
+        super(Rainbow, self).__init__(self.draw_rainbow)
+        self.frames_per_period = len(STATE.layout.pixels[0]['points'])
+        self.rainbow = CU.bi_rainbow(size+1, hue_start, hue_end, saturation, value)
+        self.scale = size/(2*math.pi)
+        self.size=size
+
+    def draw_rainbow(self, pixels, idx, point, cos_rad, sin_rad):
+        x_rotated = cos_rad*point[0] - sin_rad*point[2]
+        y_rotated = sin_rad*point[0] + cos_rad*point[2]
+        theta = math.atan2(x_rotated, y_rotated)+math.pi
+        pixels[idx] = self.rainbow[self.remap(theta)]
+
+    def remap(self, theta):
+        #INVERT
+        return int(self.size-self.scale*theta)
 
 SCENES = [
     Scene(
-        name= "GradientExample",
+        name= "BlueGreen",
         effects=[
-            Gradient()
+            Gradient(blue_green),
+            SolidBoom()
+        ]
+    ),
+    Scene(
+        name= "PurpleFade",
+        effects=[
+            Gradient(purple_fade),
+            SolidBoom()
+        ]
+    ),
+    Scene(
+        name= "PurpleFadeZ",
+        effects=[
+            Gradient(purple_fade_z),
+            SolidBoom()
+        ]
+    ),
+    Scene(
+        name= "Rainbow",
+        effects=[
+            Rainbow(),
+            SolidBoom()
         ]
     )
 ]

@@ -2,9 +2,9 @@ import mido
 from threading import Thread
 from collections import namedtuple
 
-from animation_framework import osc_utils
-from animation_framework.model import Effect, MultiEffect
-from animation_framework.state import STATE
+from simple_af import osc_utils
+from simple_af.model import Effect, MultiEffect
+from simple_af.state import STATE
 bass=36
 
 tom_1 = 48

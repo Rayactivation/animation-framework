@@ -1,5 +1,5 @@
 from __future__ import absolute_import
-import animation_framework.plugins.midi.midi_utils
+import simple_af.plugins.midi.midi_utils
 
 def configure_parser(parser, *args, **kwargs):
     parser.add_argument('--midi-port', dest='midi_port', default=None, action='store')

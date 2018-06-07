@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 
-from animation_framework.model import Effect, MultiEffect
-from animation_framework.state import STATE
-from animation_framework.plugins.stock_effects import bitmap
+from simple_af.model import Effect, MultiEffect
+from simple_af.state import STATE
+from simple_af.plugins.stock_effects import bitmap
 
 class DrumHitRow(Effect):
     def __init__(self, data, *args, **kwargs):

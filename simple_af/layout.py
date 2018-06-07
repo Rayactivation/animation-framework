@@ -31,6 +31,6 @@ class Layout(object):
 
     def annotate(config, framework):
         print "Registering listeners..."
-        for ep in pkg_resources.iter_entry_points('animation_framework.plugins.listeners'):
+        for ep in pkg_resources.iter_entry_points('simple_af.plugins.listeners'):
             print "Registering", ep
             listener = ep.load()(config, framework)

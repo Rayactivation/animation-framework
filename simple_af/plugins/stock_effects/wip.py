@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 
 import random, math
-from animation_framework.model import Effect, Scene, MultiEffect
-from animation_framework.state import STATE
+from simple_af.model import Effect, Scene, MultiEffect
+from simple_af.state import STATE
 
 class SolidBackground(Effect):
     """Always return a singular color. Can be bound top/bottom and

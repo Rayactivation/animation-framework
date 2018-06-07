@@ -2,8 +2,8 @@ from threading import Thread
 from time import sleep
 import traceback
 
-from animation_framework import osc_utils
-from animation_framework.state import STATE
+from simple_af import osc_utils
+from simple_af.state import STATE
 
 def launch_keyboard_thread(config, framework, *args, **kwargs):
     keyboard_thread = Thread(

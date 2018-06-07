@@ -9,10 +9,10 @@ import os
 import sys
 import pkg_resources
 
-from animation_framework.framework import AnimationFramework
-from animation_framework.layout import Layout
-from animation_framework.state import STATE
-from animation_framework import utils, osc_utils, _opc, _keyboard
+from simple_af.framework import AnimationFramework
+from simple_af.layout import Layout
+from simple_af.state import STATE
+from simple_af import utils, osc_utils, _opc, _keyboard
 
 logger = logging.getLogger(__name__)
 
@@ -72,7 +72,7 @@ def get_command_line_parser(add_help=True):
         '-f', '--fps', dest='fps', default=package_config['fps'] or 30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
 
-    for ep in pkg_resources.iter_entry_points('animation_framework.plugins.config'):
+    for ep in pkg_resources.iter_entry_points('simple_af.plugins.config'):
         ep.load()(parser)
 
     return parser
@@ -101,7 +101,7 @@ def consume_config(options, parser):
     return options
 
 
-def find_root(start_dirs=[], look_for=set(["layout", "animation_framework"])):
+def find_root(start_dirs=[], look_for=set(["layout", "simple_af"])):
     # type: ([str], set([str])) -> str
     """
     Find the root directory of the project by looking for some common directories
@@ -165,7 +165,7 @@ def build_opc_client(verbose):
 
 def register_listeners(config, framework):
     print "Registering listeners..."
-    for ep in pkg_resources.iter_entry_points('animation_framework.plugins.listeners'):
+    for ep in pkg_resources.iter_entry_points('simple_af.plugins.listeners'):
         print "Registering", ep
         listener = ep.load()(config, framework)
 

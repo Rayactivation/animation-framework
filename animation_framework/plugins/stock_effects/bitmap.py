@@ -121,18 +121,4 @@ class DrawMovingBitmap(Effect):
 def computeCenteredLeft(bitmap):
     return STATE.layout.rows/2-bitmap.width/2
 
-class MidiLetterListener(MultiEffect):
-    def before_rendering(self, pixels, t):
-        super(MidiLetterListener, self).before_rendering(pixels, t)
-        for data in STATE.osc_data.current['midi']:
-            #self.add_effect(MovingColor(data,slice(0,None)))
-            #self.add_effect(DrumHitRow(data))
-            if(data.note==36): #'B'ass
-                self.add_effect(DrawBitmap(LETTERS['B'], (255,255,255)))
-            else:
-            #elif(data.note in [43,47,48]): #'T'om
-            #self.add_effect(DrawMovingBitmap(LETTERS_SIX['M'], (255,255,255), -1, 1))
-                #self.add_effect(FlashBitmap(LETTERS_SIX['A'], (255,255,255), -1, 30, 1))
-                self.add_effect(FlashBitmap(CACHED_WORDS['DRUM HARDER'], (255,255,255), -1, 30, 1))
-            #else:
-            #    self.add_effect(DrumHitRow(data))
+

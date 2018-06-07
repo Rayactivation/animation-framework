@@ -1,6 +1,8 @@
-from animation_framework.model import Effect, MultiEffect, Scene
-from animation_framework.midi_utils import AbstractMidiListener, MidiLauncher
+from __future__ import absolute_import
+
+from animation_framework.model import Effect, MultiEffect
 from animation_framework.state import STATE
+from animation_framework.plugins.stock_effects import bitmap
 
 class DrumHitRow(Effect):
     def __init__(self, data, *args, **kwargs):
@@ -72,3 +74,45 @@ class DrumHitRow(Effect):
 
     def is_completed(self, t):
         return self.column_location < 0
+
+class MidiListener(MultiEffect):
+    def __init__(self, clazz):
+        MultiEffect.__init__(self)
+        self.clazz = clazz
+
+    def before_rendering(self, pixels, t):
+        super(MidiListener, self).before_rendering(pixels, t)
+        for data in STATE.osc_data.current['midi']:
+            self.add_effect(self.clazz(data))
+
+class SuperBass(MultiEffect):
+    def before_rendering(self, pixels, t):
+        super(SuperBass, self).before_rendering(pixels, t)
+        for data in STATE.osc_data.current['midi']:
+            if(data.note==36): #'B'ass
+                self.add_effect(bitmap.DrawMovingBitmap(bitmap.BIG_LETTERS['B'], (255, 255, 255), -1, 0))
+
+
+DURATION=30
+class FlashTony(MultiEffect):
+    def before_rendering(self, pixels, t):
+        super(FlashTony, self).before_rendering(pixels, t)
+        for data in STATE.osc_data.current['midi']:
+            if(data.note==36): #'B'ass
+                self.add_effect(bitmap.FlashBitmap(bitmap.CACHED_WORDS['TONYx3'], (255, 255, 255), -1, DURATION, 0))
+
+class MidiLetterListener(MultiEffect):
+    def before_rendering(self, pixels, t):
+        super(MidiLetterListener, self).before_rendering(pixels, t)
+        for data in STATE.osc_data.current['midi']:
+            #self.add_effect(MovingColor(data,slice(0,None)))
+            #self.add_effect(DrumHitRow(data))
+            if(data.note==36): #'B'ass
+                self.add_effect(bitmap.DrawBitmap(bitmap.LETTERS['B'], (255, 255, 255)))
+            else:
+            #elif(data.note in [43,47,48]): #'T'om
+            #self.add_effect(DrawMovingBitmap(LETTERS_SIX['M'], (255,255,255), -1, 1))
+                #self.add_effect(FlashBitmap(LETTERS_SIX['A'], (255,255,255), -1, 30, 1))
+                self.add_effect(bitmap.FlashBitmap(bitmap.CACHED_WORDS['DRUM HARDER'], (255, 255, 255), -1, 30, 1))
+            #else:
+            #    self.add_effect(DrumHitRow(data))

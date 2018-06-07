@@ -79,16 +79,6 @@ class MovingColor(Effect):
     def _get_color(self, note, velocity, param):
         return velocity if note%2 == param else 0
 
-
-class MidiListener(MultiEffect):
-    def before_rendering(self, pixels, t):
-        super(MidiListener, self).before_rendering(pixels, t)
-        for data in STATE.osc_data.current['midi']:
-            self.add_effect(example.MovingColor(data,slice(0,None)))
-            #self.add_effect(DrumHitRow(data))
-            #if(data.note==36):
-            #    self.add_effect(DrawA_B(data))
-
 SCENES = [
     #Scene(
     #    "movingslice",

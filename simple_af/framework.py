@@ -6,6 +6,7 @@ import importlib
 import os.path
 import sys
 import time
+import pkg_resources
 from collections import OrderedDict
 from threading import Thread
 
@@ -74,10 +75,11 @@ class AnimationFramework(object):
 
         # self.osc_server.addMsgHandler("/scene/picknew", self.pick_new_scene_handler)
 
-        def handle_midi(path, tags, args, source):
-            STATE.osc_data.accumulating['midi'].append(DrumHit(args[1], args[2]))
+        print "Registering external osc handlers..."
+        for ep in pkg_resources.iter_entry_points('simple_af.plugins.osc_handlers'):
+            print "Registering", ep
+            listener = ep.load()(self.osc_server)
 
-        self.osc_server.addMsgHandler("/input/midi", handle_midi)
 
         print "Registered all OSC Handlers"
 

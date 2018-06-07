@@ -28,8 +28,8 @@ setuptools.setup(
             'keyboard=simple_af._keyboard:launch_keyboard_thread',
             'midi=simple_af.plugins.midi:register_listeners'
         ],
-        'simple_af.plugins.layout': [
-            'midi=simple_af.plugins.midi:annotate_layout'
+        'simple_af.plugins.osc_handlers': [
+            'midi=simple_af.plugins.midi:register_osc_handlers'
         ]
     },
     classifiers=[

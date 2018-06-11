@@ -4,7 +4,7 @@ import  setuptools
 setuptools.setup(
     name="simple_af",
     description="Framework for Animation over OPC and OSC. Is it simple because it's easy to use, or cause it's simple design?",
-    version="0.0.5",
+    version="0.0.6",
     author="David Foregger",
     url="https://github.com/Hall-Ave/simple-af",
     #packages=setuptools.find_packages(),
@@ -16,9 +16,6 @@ setuptools.setup(
         "pyOSC==0.3.5b5294",
         "numpy==1.13.1"
     ],
-    extra_requires={
-        'midi': ['mido']
-    },
     entry_points={
         'simple_af.plugins.config': [],
         'simple_af.plugins.listeners': [

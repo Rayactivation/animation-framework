@@ -10,7 +10,6 @@ setuptools.setup(
     #packages=setuptools.find_packages(),
     packages=[
         'simple_af',
-        'simple_af.plugins.midi',
         'simple_af.plugins.stock_effects'
     ],
     install_requires=[
@@ -21,21 +20,15 @@ setuptools.setup(
         'midi': ['mido']
     },
     entry_points={
-        'simple_af.plugins.config': [
-            'midi=simple_af.plugins.midi:configure_parser'
-        ],
+        'simple_af.plugins.config': [],
         'simple_af.plugins.listeners': [
             'keyboard=simple_af._keyboard:launch_keyboard_thread',
-            'midi=simple_af.plugins.midi:register_listeners'
         ],
-        'simple_af.plugins.osc_handlers': [
-            'midi=simple_af.plugins.midi:register_osc_handlers'
-        ]
+        'simple_af.plugins.osc_handlers': []
     },
     classifiers=[
         "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
     ]
-
 )

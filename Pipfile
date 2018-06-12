@@ -9,7 +9,6 @@ pytest = "*"
 [packages]
 numpy = "==1.13.1"
 pyOSC = "==0.3.5b5294"
-mido = "*"
 rtmidi-python = "*"
 rtmidi = "*"
 python-rtmidi = "*"

@@ -118,7 +118,10 @@ def find_root(start_dirs=[], look_for=set(["layout", "simple_af"])):
             if look_for.issubset(os.listdir(curr_dir)):
                 print "    Found root directory of", curr_dir
                 return curr_dir
-    print "Could not find %s in parent dirs of %s. Root will be none" % (look_for, start_dirs)
+
+    curr_dir=os.getcwd()
+    print "Could not find %s in parent dirs of %s. Root will be working dir %s" % (look_for, start_dirs, curr_dir)
+    return curr_dir
 
 
 def parse_json_file(filename):

@@ -15,7 +15,6 @@ from OSC import OSCServer
 from simple_af._opc import Client
 from simple_af.pixels import Pixels
 from simple_af.state import STATE
-from simple_af.plugins.midi.midi_utils import DrumHit
 from simple_af.osc_utils import OSCStorage
 from simple_af.model import Scene
 

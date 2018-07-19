@@ -4,12 +4,12 @@ import logging
 import OSC
 from time import sleep
 from subprocess import Popen, check_call
-import animation_framework.launcher
-from animation_framework.osc_utils import create_osc_server
+import simple_af.launcher
+from simple_af.osc_utils import create_osc_server
 
 logger = logging.getLogger(__name__)
 
-parser = argparse.ArgumentParser(parents=[animation_framework.launcher.get_command_line_parser(add_help=False)])
+parser = argparse.ArgumentParser(parents=[simple_af.launcher.get_command_line_parser(add_help=False)])
 parser.add_argument(
     '-a',
     '--address',

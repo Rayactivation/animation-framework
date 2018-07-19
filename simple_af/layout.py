@@ -11,7 +11,6 @@ class Layout(object):
         self.n_pixels = len(pixels)
         self.grid = np.zeros(self.n_pixels, np.int)
 
-
         for attr in _GROUPBY:
             setattr(self, attr, collections.defaultdict(list))
 
@@ -23,9 +22,3 @@ class Layout(object):
         # reset the defaultdicts to normal dictionaries
         for attr in _GROUPBY:
             setattr(self, attr, {k: v for k, v in getattr(self, attr).items()})
-            
-
-    """
-    def colmod(self, i):
-        return divmod(i, self.columns)[1]
-    """

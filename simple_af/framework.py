@@ -6,18 +6,17 @@ import importlib
 import os.path
 import sys
 import time
-from collections import OrderedDict, defaultdict
-from random import choice
+import pkg_resources
+from collections import OrderedDict
 from threading import Thread
 
 from OSC import OSCServer
 
-from animation_framework._opc import Client
-from animation_framework.pixels import Pixels
-from animation_framework.state import STATE
-from animation_framework.midi.midi_utils import DrumHit
-from animation_framework.osc_utils import OSCStorage
-from animation_framework.model import Scene
+from simple_af._opc import Client
+from simple_af.pixels import Pixels
+from simple_af.state import STATE
+from simple_af.osc_utils import OSCStorage
+from simple_af.model import Scene
 
 FAIL_ON_LOAD = True
 
@@ -75,10 +74,11 @@ class AnimationFramework(object):
 
         # self.osc_server.addMsgHandler("/scene/picknew", self.pick_new_scene_handler)
 
-        def handle_midi(path, tags, args, source):
-            STATE.osc_data.accumulating['midi'].append(DrumHit(args[1], args[2]))
+        print "Registering external osc handlers..."
+        for ep in pkg_resources.iter_entry_points('simple_af.plugins.osc_handlers'):
+            print "Registering", ep
+            listener = ep.load()(self.osc_server)
 
-        self.osc_server.addMsgHandler("/input/midi", handle_midi)
 
         print "Registered all OSC Handlers"
 

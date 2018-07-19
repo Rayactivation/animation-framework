@@ -4,16 +4,15 @@ from __future__ import absolute_import, division
 import argparse
 import json
 import logging
-from multiprocessing import Process
 from collections import defaultdict
 import os
 import sys
+import pkg_resources
 
-from animation_framework.framework import AnimationFramework
-from animation_framework.layout import Layout
-#from animation_framework import midi_utils
-from animation_framework.state import STATE
-from animation_framework import utils, osc_utils, _opc, _keyboard
+from simple_af.framework import AnimationFramework
+from simple_af.layout import Layout
+from simple_af.state import STATE
+from simple_af import utils, osc_utils, _opc, _keyboard
 
 logger = logging.getLogger(__name__)
 
@@ -72,6 +71,10 @@ def get_command_line_parser(add_help=True):
     parser.add_argument(
         '-f', '--fps', dest='fps', default=package_config['fps'] or 30, action='store', type=int, help='frames per second')
     parser.add_argument('-v', '--verbose', dest='verbose', default=False, action='store_true')
+
+    for ep in pkg_resources.iter_entry_points('simple_af.plugins.config'):
+        ep.load()(parser)
+
     return parser
 
 
@@ -98,7 +101,7 @@ def consume_config(options, parser):
     return options
 
 
-def find_root(start_dirs=[], look_for=set(["layout", "animation_framework"])):
+def find_root(start_dirs=[], look_for=set(["layout", "simple_af"])):
     # type: ([str], set([str])) -> str
     """
     Find the root directory of the project by looking for some common directories
@@ -115,7 +118,10 @@ def find_root(start_dirs=[], look_for=set(["layout", "animation_framework"])):
             if look_for.issubset(os.listdir(curr_dir)):
                 print "    Found root directory of", curr_dir
                 return curr_dir
-    print "Could not find %s in parent dirs of %s. Root will be none" % (look_for, start_dirs)
+
+    curr_dir=os.getcwd()
+    print "Could not find %s in parent dirs of %s. Root will be working dir %s" % (look_for, start_dirs, curr_dir)
+    return curr_dir
 
 
 def parse_json_file(filename):
@@ -160,7 +166,11 @@ def build_opc_client(verbose):
             clients[client] = range(STATE.layout.n_pixels)
         return _opc.MultiClient(clients)
 
-
+def register_listeners(config, framework):
+    print "Registering listeners..."
+    for ep in pkg_resources.iter_entry_points('simple_af.plugins.listeners'):
+        print "Registering", ep
+        listener = ep.load()(config, framework)
 
 
 def launch(options=None, parser=None):
@@ -175,9 +185,7 @@ def launch(options=None, parser=None):
 
     framework = init_animation_framework(osc_server, opc_client, config.effects_directory, config.scene)
 
-    _keyboard.launch_keyboard_thread(framework)
-
-    #midi_utils.listen_for_midi(config.midi_backend, config.midi_port,config.midi_port_virtual)
+    register_listeners(config, framework)
 
     try:
         framework.serve_forever()

@@ -7,3 +7,5 @@ python/.idea
 .idea
 
 .#*
+
+*.egg-info
